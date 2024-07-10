@@ -48,4 +48,3 @@ def logout() -> Tuple[str, int]:
     if not is_destroyed:
         abort(404)
     return jsonify({})
-
